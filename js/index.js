@@ -18,6 +18,9 @@ var chartOptions = {
 		],
 	},
 	options: {
+		hover: {
+			mode: 'nearest',
+		},
 		tooltips: {
 			enabled: false,
 		},
