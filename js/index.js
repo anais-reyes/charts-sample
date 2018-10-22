@@ -107,6 +107,9 @@ var lineChartOptions = {
 				fill: false,
 				borderWidth: 2,
 				pointRadius: [2, 0, 0, 2],
+				pointHoverRadius: [2, 0, 0, 2],
+				pointHoverBackgroundColor: '#97cf57',
+				pointHoverBorderColor: '#97cf57',
 				borderColor: '#97cf57',
 				backgroundColor: '#97cf57',
 			},
@@ -123,6 +126,11 @@ var lineChartOptions = {
 				console.log(chart.data.datasets[0].data[index]);
 			}
 		},
+		/*
+		onHover: function(event, item) {
+			console.log(event, 'event');
+			console.log(item, 'item');
+		},*/
 
 		tooltips: {
 			enabled: false,
