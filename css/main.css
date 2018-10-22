@@ -2,14 +2,16 @@ body {
 	background-color: #eee;
 }
 
-section#chart-container {
+section.chart-container {
 	background-color: #fff;
-	max-width: 600px;
-	min-width: 600px;
-	padding-bottom: 15px;
+	max-width: 500px;
+	min-width: 500px;
+	padding: 25px;
+	margin-bottom: 20px;
 }
 
-canvas#container-canvas {
+canvas#bar-canvas,
+canvas#line-canvass {
 	padding-top: 25px;
 	padding-bottom: 15px;
 }
