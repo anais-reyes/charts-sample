@@ -238,7 +238,7 @@ var dataSet = [
 
 // events
 document.getElementById('randomise-data').addEventListener('click', function() {
-	updateChart();
+	updateBarChart();
 });
 
 document.getElementById('farLeftButton').addEventListener('click', function() {
